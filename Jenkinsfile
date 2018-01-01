@@ -4,9 +4,9 @@ pipeline {
     maven 'M3'
   }
   stages {
-    stage('checkout') {
+    stage('Checkout') {
       steps {
-        git 'https://github.com/effectivejenkins/myProject.git'
+        git 'https://github.com/booking59/myProject.git'
       }
     }
     stage('Build') {
